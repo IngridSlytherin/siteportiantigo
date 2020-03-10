@@ -1,0 +1,654 @@
+  body {
+   font: 24px Helvetica;
+   background: #FFF;
+  }
+
+  #main {
+   margin-top: 10px;
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+   }
+
+  .hr1{
+   margin-top:  2vh; 
+   border: 0;
+   height: 0.50vh;
+   background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+/* Skills */
+ 
+  #main > article {
+   /*margin: 4px;
+   padding: 5px;
+   border: 1px solid #cccc33;
+   border-radius: 7pt;*/
+   background: #FFF;
+   -webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+    /**/background-color: #FFF;
+   }
+
+  #SkillBox {
+    font-size: 21px;
+    font-family: 'Quantico', cursive;
+    width: 95%;
+    height: auto;
+   /* margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;*/
+    padding: 10px;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 90%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}#Skill-SEO {
+    animation: Animate-SEO 4s;
+    -webkit-animation: Animate-SEO 4s;
+    -moz-animation: Animate-SEO 4s;
+    -o-animation: Animate-SEO 4s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+}
+@keyframes Animate-SEO {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-webkit-keyframes Animate-SEO {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-moz-keyframes Animate-SEO {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-SEO {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}#Skill-REDES {
+    animation: Animate-REDES 4s;
+    -webkit-animation: Animate-REDES 4s;
+    -moz-animation: Animate-REDES 4s;
+    -o-animation: Animate-REDES 4s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #970cc1;
+}
+@keyframes Animate-REDES {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-webkit-keyframes Animate-REDES {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-moz-keyframes Animate-REDES {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-o-keyframes Animate-REDES {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}#Skill-BD {
+    animation: Animate-BD 4s;
+    -webkit-animation: Animate-BD 4s;
+    -moz-animation: Animate-BD 4s;
+    -o-animation: Animate-BD 4s;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    background-color: #8e930c;
+}
+@keyframes Animate-BD {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-webkit-keyframes Animate-BD {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-moz-keyframes Animate-BD {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-o-keyframes Animate-BD {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}#Skill-PHP {
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #5A69A6;
+}
+@keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-webkit-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-moz-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-o-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}#Skill-PO {
+    animation: Animate-PO 4s;
+    -webkit-animation: Animate-PO 4s;
+    -moz-animation: Animate-PO 4s;
+    -o-animation: Animate-PO 4s;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    background-color: #23b1db;
+}
+@keyframes Animate-PO {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-webkit-keyframes Animate-PO {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-moz-keyframes Animate-PO {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-o-keyframes Animate-PO {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}#Skill-PS {
+    animation: Animate-PS 4s;
+    -webkit-animation: Animate-PS 4s;
+    -moz-animation: Animate-PS 4s;
+    -o-animation: Animate-PS 4s;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #f8a51e;
+}
+@keyframes Animate-PS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-PS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-PS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-PS {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}.Skill-Area {
+    z-index: 1;
+    float: left;
+    //position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+/* Skills end */
+  #main > nav {
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    /*margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    /*border-radius: 7pt;
+    background: #F5F3D3;*/
+    -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+    -webkit-order: 1;
+           order: 1;
+   }
+   nav .container0{
+    padding: 0px;
+    margin: 0px;
+   }
+
+  .container0{
+    margin-top: 0px;
+    display: inline-table;
+    align-content: center;   
+   } 
+   nav .container1{
+    justify-content: center;
+   }
+
+    .container1 {
+
+      /*background-color: red; TESTE */
+      margin-left: 27%;
+      width: 20vh;
+      height: 20vh;
+      /**/background-image: url('ingrid.jpg');
+      background-size: cover;
+      border-radius: 90%;
+      border: #E827E8 solid 2px;
+    }
+    .container0 h3 {
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    margin-bottom: 0vh;
+    font-weight: bold;
+    }
+
+    .container0 h2{
+      text-align: center;
+      font-size: 3vh;
+      font-family: 'Fira Sans', sans-serif;
+    }
+    .container0 ul{
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      display: flex;
+      margin-bottom: 25px;
+      margin-right: 10px;
+      opacity: 0.4;
+    }
+    .container0 ul:hover{
+      opacity: 1;
+    }
+    .container0 ul  a {
+    color: #E827E8;
+    font-size: 2rem;
+    }
+    .container0 h1 {
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    margin-bottom: 0vh;
+    font-weight: bold;
+    color: #FF7438;
+    }
+
+  
+aside {
+   display: flex; 
+   justify-content: center;
+   align-content: center;
+   height: auto;
+   margin: 0px;
+   padding: 0px;
+   /*border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ccccff;*/
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 3;
+           order: 3;
+   }
+
+   .container2{
+    display: inline-table;
+    align-content: center;   
+   } 
+ 
+    .container2 h1 {
+    font-family: 'Quantico', sans-serif;/**/
+    text-align: center;
+    margin-bottom: 1vh;
+    font-weight: bold;
+    color: red;
+    margin-top: 0vh;
+    font-size: 4vh;
+    }
+        .container2 p {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    color: #7D758F;
+    }
+
+  header, footer {
+   display: block;
+   margin: 4px;
+   padding: 5px;
+   width: 100%;
+   min-height: 100px;
+   /*border: 1px solid #eebb55;
+   border-radius: 7pt;*/
+   background: #F5F3D3;
+   }
+ 
+  /* Too narrow to support three columns */
+  @media all and (max-width: 640px) {
+  
+   #main, #page {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+   }
+
+   #main > article, #main > nav, aside {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+   }
+  
+   #main > nav, aside, header, footer {
+    min-height: auto;
+    max-height: auto;
+   }
+  }
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  /*background-color: #E0CAEB;*/
+  background-color: #EEE;
+  margin: 0; 
+  padding: 0; 
+  font-size: 4vh;
+  box-sizing: border-box; 
+  font-family: 'Quantico', sans-serif;
+}
+
+header img {
+  visibility: hidden;
+  width: 35vh;
+  right: 20vh;
+}
+header .menuu {
+  display: flex;
+}
+header li a {
+ color: green;;
+}
+header li {
+  margin: 0 15px;
+}
+header li:first-child {
+  margin-left: 0px;
+}
+header li:last-child {
+  margin-left: 0px;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  header img {
+    margin-bottom: 15px;
+  }
+}
+
+.menuu, ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0vh 0vh;
+  align-items: center;
+  background-color: #EEE;
+}
+
+footer p {
+  color: black;
+  font-size: 3vh;
+  margin-bottom: 2vh;
+  font-family: 'Quantico', sans-serif;
+  text-align: center;
+  padding-top: 3vh;
+}
